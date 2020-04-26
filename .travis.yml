@@ -27,7 +27,7 @@ before_script:
   - wget -q https://github.com/PhantomZone54/twrp_sources_norepo/releases/download/v3.3.1-20200222/MinimalOmniRecovery-twrp-9.0-norepo-20200222.tar.xz.ac
   - wget -q https://github.com/PhantomZone54/twrp_sources_norepo/releases/download/v3.3.1-20200222/MinimalOmniRecovery-twrp-9.0-norepo-20200222.tar.xz.ad
   - cd $HOME/twrp/ && cat ../*.tar.xz.* | tar -xJf -
-
+  - rm -rf $HOME/*.tar.xz.*
   #- tar -xJf twrp.tar.xz --directory $HOME/twrp/ && rm twrp.tar.xz
 script:
   # Replace your $$USERNAME$$, $$REPO_URL$$, $$BRAND$$, $$DEVICE$$
