@@ -29,6 +29,9 @@ before_script:
   - cd $HOME/twrp/ && cat ../*.tar.xz.* | tar -xJf -
   - rm -rf $HOME/*.tar.xz.*
   #- tar -xJf twrp.tar.xz --directory $HOME/twrp/ && rm twrp.tar.xz
+  - wget wget "https://forum.xda-developers.com/attachment.php?attachmentid=3662694&d=1456615111" -O busybox.zip
+  - unzip busybox.zip -d external/
+  - rm -rf $HOME/busybox.zip
 script:
   # Replace your $$USERNAME$$, $$REPO_URL$$, $$BRAND$$, $$DEVICE$$
   - cd $HOME/twrp/ && git clone https://github.com/ghsoft/android_device_rk3328_box_rk3328.git device/Android/rk3328_box
