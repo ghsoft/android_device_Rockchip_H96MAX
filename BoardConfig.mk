@@ -33,7 +33,7 @@ TARGET_SCREEN_WIDTH := 720                      # The width
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBA_8888"
 # Set the Brightness Control File Path below (as per your chip/device)
 TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
-TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/class/android_usb/android0/f_mass_storage/lun/file
+#TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/class/android_usb/android0/f_mass_storage/lun/file
 TW_MAX_BRIGHTNESS := 255
 TW_DEFAULT_BRIGHTNESS := 80                   # Set custom brightness, low is better
 
