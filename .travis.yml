@@ -32,7 +32,7 @@ script:
     cd /home/builder/twrp/
     source build/envsetup.sh
     # Choose build flavor as "eng" or "userdebug"
-    lunch omni_rk3328_box-eng
+    lunch omni_rk3328_box-userdebug
     make -j$(nproc --all) recoveryimage
     exit
     EOF
