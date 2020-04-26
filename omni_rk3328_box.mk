@@ -30,5 +30,5 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 # Add fingerprint from Stock ROM build.prop
 PRODUCT_BUILD_PROP_OVERRIDES += \
     # These lines are from my device. You MUST Replace yours.
-    BUILD_FINGERPRINT="Android/rk3328_box/rk3328_box:9/PQ2A.190205.003/tugy06191040:userdebug/test-keys" \
-    PRIVATE_BUILD_DESC="rk3328_box-userdebug 9 PQ2A.190205.003 105005 test-keys"
+    BUILD_FINGERPRINT="Android/rk3328_box/rk3328_box:9/PQ2A.190205.003/tugy06191040:userdebug/test-keys"
+#    PRIVATE_BUILD_DESC="rk3328_box-userdebug 9 PQ2A.190205.003 105005 test-keys"
