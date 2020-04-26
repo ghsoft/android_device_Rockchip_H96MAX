@@ -29,7 +29,7 @@ before_script:
   - cd $HOME/twrp/ && cat ../*.tar.xz.* | tar -xJf -
   - rm -rf $HOME/*.tar.xz.*
   #- tar -xJf twrp.tar.xz --directory $HOME/twrp/ && rm twrp.tar.xz
-  - wget wget "https://forum.xda-developers.com/attachment.php?attachmentid=3662694&d=1456615111" -O busybox.zip
+  - wget "https://forum.xda-developers.com/attachment.php?attachmentid=3662694&d=1456615111" -O busybox.zip
   - unzip busybox.zip -d external/
   - rm -rf $HOME/busybox.zip
 script:
