@@ -22,11 +22,11 @@ before_script:
   # Uncomment & Use below line If Building for Nougat-based Devices
   #- TWRP_SOURCE="https://github.com/PhantomZone54/twrp_sources_norepo/releases/download/v3.3.1-20200222/MinimalOmniRecovery-twrp-7.1-norepo-20200222.tar.xz"
   #- wget -q  -O $HOME/twrp.tar.xz
-  - wget -q https://github.com/PhantomZone54/twrp_sources_norepo/releases/download/v3.3.1-20200222/MinimalOmniRecovery-twrp-9.0-norepo-20200222.tar.xz.aa -O  $HOME/twrp.tar.xz.aa
-  - wget -q https://github.com/PhantomZone54/twrp_sources_norepo/releases/download/v3.3.1-20200222/MinimalOmniRecovery-twrp-9.0-norepo-20200222.tar.xz.ab -O  $HOME/twrp.tar.xz.ab
-  - wget -q https://github.com/PhantomZone54/twrp_sources_norepo/releases/download/v3.3.1-20200222/MinimalOmniRecovery-twrp-9.0-norepo-20200222.tar.xz.ac -O  $HOME/twrp.tar.xz.ac
-  - wget -q https://github.com/PhantomZone54/twrp_sources_norepo/releases/download/v3.3.1-20200222/MinimalOmniRecovery-twrp-9.0-norepo-20200222.tar.xz.ad -O  $HOME/twrp.tar.xz.ad
-  - cd $HOME && cat *.tar.xz.* | tar -xJf --directory $HOME/twrp/ -
+  - wget -q https://github.com/PhantomZone54/twrp_sources_norepo/releases/download/v3.3.1-20200222/MinimalOmniRecovery-twrp-9.0-norepo-20200222.tar.xz.aa
+  - wget -q https://github.com/PhantomZone54/twrp_sources_norepo/releases/download/v3.3.1-20200222/MinimalOmniRecovery-twrp-9.0-norepo-20200222.tar.xz.ab
+  - wget -q https://github.com/PhantomZone54/twrp_sources_norepo/releases/download/v3.3.1-20200222/MinimalOmniRecovery-twrp-9.0-norepo-20200222.tar.xz.ac
+  - wget -q https://github.com/PhantomZone54/twrp_sources_norepo/releases/download/v3.3.1-20200222/MinimalOmniRecovery-twrp-9.0-norepo-20200222.tar.xz.ad
+  - cd $HOME/twrp/ && cat ../*.tar.xz.* | tar -xJf -
 
   #- tar -xJf twrp.tar.xz --directory $HOME/twrp/ && rm twrp.tar.xz
 script:
